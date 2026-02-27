@@ -32,6 +32,16 @@ const Header = () => {
                                     Register
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link " aria-current="page" to="/create">
+                                    Create
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link " aria-current="page" to="/view">
+                                    View
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
